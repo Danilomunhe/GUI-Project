@@ -98,6 +98,7 @@ public class Tela {
 			@Override
 			public void keyPressed(KeyEvent e) {
 				System.out.println(e.getKeyChar());
+				System.out.println(e.getKeyCode());
 				
 			}
 		});
